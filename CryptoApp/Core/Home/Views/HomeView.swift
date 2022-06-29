@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State private var showPortfolio: Bool = true
+    @State private var showPortfolio: Bool = false
     
     var body: some View {
         ZStack {
