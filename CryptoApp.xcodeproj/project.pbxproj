@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F04CF04286C98B000E1016A /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F04CF03286C98B000E1016A /* Double.swift */; };
+		4F084DA228705AAF00FE40D5 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F084DA128705AAF00FE40D5 /* LocalFileManager.swift */; };
 		4F1BE3AB286CCA14000F7307 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BE3AA286CCA14000F7307 /* HomeViewModel.swift */; };
 		4F1BE3AF286CDF33000F7307 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1BE3AE286CDF33000F7307 /* CoinDataService.swift */; };
 		4F3407E2286DD59600D00EAA /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3407E1286DD59600D00EAA /* NetworkingManager.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		4F04CF03286C98B000E1016A /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		4F084DA128705AAF00FE40D5 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		4F1BE3AA286CCA14000F7307 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		4F1BE3AE286CDF33000F7307 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		4F3407E1286DD59600D00EAA /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				4F3407E1286DD59600D00EAA /* NetworkingManager.swift */,
+				4F084DA128705AAF00FE40D5 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				4F95B0A6286C922F005A85D3 /* CoinRowView.swift in Sources */,
 				4F1BE3AB286CCA14000F7307 /* HomeViewModel.swift in Sources */,
 				4FCEA80B286B156900487711 /* ContentView.swift in Sources */,
+				4F084DA228705AAF00FE40D5 /* LocalFileManager.swift in Sources */,
 				4FCEA820286B18B900487711 /* HomeView.swift in Sources */,
 				4F3407E5286DF0AE00D00EAA /* CoinImageView.swift in Sources */,
 				4FCEA809286B156900487711 /* CryptoAppApp.swift in Sources */,
