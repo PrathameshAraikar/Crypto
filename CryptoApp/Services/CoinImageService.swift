@@ -27,10 +27,10 @@ class CoinImageService {
     private func getCoinImage() {
         if let savedImage = fileManager.getImage(folderName: folderName, imageName: imageName) {
             image = savedImage
-            print("Retreived Image From FM")
+//            print("Retreived Image From FM")
         } else {
             downloadCoinImage()
-            print("Download Image from API")
+//            print("Download Image from API")
         }
     }
     
