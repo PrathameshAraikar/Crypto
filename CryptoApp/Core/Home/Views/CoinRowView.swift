@@ -22,7 +22,8 @@ struct CoinRowView: View {
             rightColumn
         }
         .font(.subheadline)
-        .background(Color.theme.background)
+        .contentShape(Rectangle())  // makes the row tappable
+//        .background(Color.theme.background)
     }
 }
 
@@ -30,12 +31,12 @@ struct CoinRowView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             CoinRowView(coin: dev.coin, showHoldingsColumn: true)
-                .previewLayout(.sizeThatFits)
             
             CoinRowView(coin: dev.coin, showHoldingsColumn: true)
-                .previewLayout(.sizeThatFits)
                 .preferredColorScheme(.dark)
         }
+        .previewLayout(.sizeThatFits)
+        .padding()
     }
 }
 
@@ -64,6 +65,7 @@ extension CoinRowView {
                 .bold()
             Text((coin.currentHoldings ?? 0).asNumberString())
         }
+        .foregroundColor(Color.theme.accent)
     }
     
     private var rightColumn: some View {

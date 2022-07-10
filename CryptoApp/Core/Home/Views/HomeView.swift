@@ -14,7 +14,7 @@ struct HomeView: View {
     @State private var showPortfolioView: Bool = false  // show sheet
     
     @State private var selectedCoin: CoinModel? = nil
-    @State private var showDetailView: Bool = false
+    @State private var showDetailView: Bool = false     // show Detail View
     
     var body: some View {
         ZStack {
