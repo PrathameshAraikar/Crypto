@@ -20,11 +20,14 @@
 		4F34D18C2871842C00EBF686 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F34D18B2871842C00EBF686 /* StatisticModel.swift */; };
 		4F34D18E2871865200EBF686 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F34D18D2871865200EBF686 /* StatisticView.swift */; };
 		4F34D19028718B2000EBF686 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F34D18F28718B2000EBF686 /* HomeStatsView.swift */; };
+		4F457A9F287C039B008573D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F457A9E287C039B008573D6 /* LaunchScreen.storyboard */; };
+		4F457AA1287C066F008573D6 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F457AA0287C066F008573D6 /* LaunchView.swift */; };
 		4F66B004287AD79A006F3B19 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66B003287AD79A006F3B19 /* ChartView.swift */; };
 		4F66B006287AE092006F3B19 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66B005287AE092006F3B19 /* Date.swift */; };
 		4F66B008287AF6D6006F3B19 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66B007287AF6D6006F3B19 /* String.swift */; };
 		4F79D5D628729DB0007ACC29 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F79D5D528729DB0007ACC29 /* PortfolioView.swift */; };
 		4F79D5DA2872A73E007ACC29 /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F79D5D92872A73E007ACC29 /* CoinLogoView.swift */; };
+		4F8D73F4287B1DFF00D06279 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D73F3287B1DFF00D06279 /* SettingsView.swift */; };
 		4F9381952872C74800BDD280 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F9381932872C74700BDD280 /* PortfolioContainer.xcdatamodeld */; };
 		4F9381972872C7F200BDD280 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9381962872C7F200BDD280 /* PortfolioDataService.swift */; };
 		4F95B0A4286C8919005A85D3 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F95B0A3286C8919005A85D3 /* CoinModel.swift */; };
@@ -61,11 +64,14 @@
 		4F34D18B2871842C00EBF686 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		4F34D18D2871865200EBF686 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		4F34D18F28718B2000EBF686 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
+		4F457A9E287C039B008573D6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F457AA0287C066F008573D6 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		4F66B003287AD79A006F3B19 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		4F66B005287AE092006F3B19 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		4F66B007287AF6D6006F3B19 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		4F79D5D528729DB0007ACC29 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		4F79D5D92872A73E007ACC29 /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
+		4F8D73F3287B1DFF00D06279 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		4F9381942872C74800BDD280 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		4F9381962872C7F200BDD280 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		4F95B0A3286C8919005A85D3 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
@@ -130,6 +136,31 @@
 				4F79D5D92872A73E007ACC29 /* CoinLogoView.swift */,
 			);
 			path = CoinImage;
+			sourceTree = "<group>";
+		};
+		4F457A9C287C0366008573D6 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				4F457A9D287C0374008573D6 /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		4F457A9D287C0374008573D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F457A9E287C039B008573D6 /* LaunchScreen.storyboard */,
+				4F457AA0287C066F008573D6 /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F8D73F2287B1DD500D06279 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4F8D73F3287B1DFF00D06279 /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		4F95B0A2286C8902005A85D3 /* Models */ = {
@@ -227,8 +258,10 @@
 			isa = PBXGroup;
 			children = (
 				4FCEA821286B199A00487711 /* Components */,
+				4F457A9C287C0366008573D6 /* Launch */,
 				4FCEA81C286B189800487711 /* Home */,
 				4F9ABB182879BB9800EDCDE0 /* Details */,
+				4F8D73F2287B1DD500D06279 /* Settings */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -339,6 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F457A9F287C039B008573D6 /* LaunchScreen.storyboard in Resources */,
 				4FCEA810286B156C00487711 /* Preview Assets.xcassets in Resources */,
 				4FCEA817286B15CE00487711 /* Assets.xcassets in Resources */,
 			);
@@ -357,6 +391,8 @@
 				4F95B0A6286C922F005A85D3 /* CoinRowView.swift in Sources */,
 				4F1BE3AB286CCA14000F7307 /* HomeViewModel.swift in Sources */,
 				4F9381952872C74800BDD280 /* PortfolioContainer.xcdatamodeld in Sources */,
+				4F8D73F4287B1DFF00D06279 /* SettingsView.swift in Sources */,
+				4F457AA1287C066F008573D6 /* LaunchView.swift in Sources */,
 				4FCEA80B286B156900487711 /* ContentView.swift in Sources */,
 				4F084DA228705AAF00FE40D5 /* LocalFileManager.swift in Sources */,
 				4F9ABB1E2879C7CF00EDCDE0 /* CoinDetailModel.swift in Sources */,
@@ -521,6 +557,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -551,6 +588,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
