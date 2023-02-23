@@ -18,11 +18,21 @@ struct SettingsView: View {
     
     var body: some View {
         NavigationView {
-            List {
-                cryptoTrackerSection
-                coingeckoSection
-                developerSection
-                applicationSection
+            ZStack {
+                // background
+                Color.theme.background.ignoresSafeArea()
+                
+                // content
+                List {
+                    cryptoTrackerSection
+                        
+                    coingeckoSection
+                        
+                    developerSection
+
+                    applicationSection
+                }
+                .listRowBackground(Color.theme.background.opacity(0.7))
             }
             .listStyle(.grouped)
             .navigationTitle("Settings")
@@ -43,6 +53,7 @@ struct SettingsView: View {
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsView()
+            .preferredColorScheme(.dark)
     }
 }
 
